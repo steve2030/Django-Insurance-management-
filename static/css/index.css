@@ -1,0 +1,43 @@
+
+.footer{
+
+    gap: 2rem;
+    display: flex;
+
+}
+.footer>*{
+    background-color: blue;
+    flex: 1;
+}
+.services{
+    display: flex;
+    gap: 2rem;
+
+}
+.services>*{
+    flex:1;
+
+    border-radius: 20px;
+    padding: 10px;
+    background-color: black;
+    color: whitesmoke;
+
+
+
+}
+.head{
+    text-align: center;
+}
+
+
+.reviews{
+    display: flex;
+    gap: 2rem;
+
+}
+.reviews>*{
+    flex:1;
+    background-color: aquamarine;
+
+    padding :20px;
+}
